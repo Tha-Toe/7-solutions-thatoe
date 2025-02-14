@@ -54,7 +54,9 @@ export default function Home() {
           onItemClick={returnItem}
         />
       </div>
-      <span className="text-sm text-gray-500 text-center block mt-5">My personal website: <a href="https://thatoesaung.vercel.app/" target="_blank" className="text-blue-500">https://thatoesaung.vercel.app/</a></span>
+      <span className='text-sm text-gray-500 text-center block mt-20'>Github Source code: <a href="https://github.com/Tha-Toe/7-solutions-thatoe" target="_blank" className="text-blue-500">https://github.com/Tha-Toe/7-solutions-thatoe</a></span>
+      <span className="text-sm text-gray-500 text-center block mt-5">My personal website with my projects and experiences: <a href="https://thatoesaung.vercel.app/" target="_blank" className="text-blue-500">https://thatoesaung.vercel.app/</a></span>
+      <p className='text-sm text-gray-500 text-center block mt-5'>Thanks for your time and opportunity to apply for 7solutions.</p>
     </main>
   )
 }
